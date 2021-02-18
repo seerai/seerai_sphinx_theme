@@ -31,7 +31,7 @@
 }
 
 .header-logo {
-  height: 23px;
+  height: 50px;
   width: 93px;
   background-image: url("../images/Logo-seerai.svg");
   background-repeat: no-repeat;
@@ -41,11 +41,11 @@
   z-index: 10;
 
   @include full-nav-menu-desktop {
-    background-size: 108px 27px;
+    background-size: 160px 50px;
     position: absolute;
-    height: 27px;
+    height: 50px;
     width: 108px;
-    top: 4px;
+    top: 0px;
     float: none;
   }
 }

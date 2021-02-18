@@ -124,11 +124,13 @@ ul.pytorch-breadcrumbs {
 
 .tutorials-header {
   .header-logo {
-    background-image: url("../images/logo-dark.svg");
+    background-image: url("../images/Logo-seerai.svg");
+    background-size: 160px 50px;
+    size: 160px 50px;
   }
 
   .main-menu ul li a {
-    color: $not_quite_black;
+    color: $seerai-white;
   }
 
   .main-menu-open-button {
@@ -871,6 +873,7 @@ a:hover {
 .header-holder {
   position: relative;
   z-index: 201;
+  background-image: url('../images/seerai-noise.png');
 }
 
 .header-holder .main-menu {
