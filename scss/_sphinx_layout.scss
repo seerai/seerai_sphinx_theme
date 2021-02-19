@@ -353,7 +353,7 @@
   }
 
   li.toctree-l1.current > a {
-    color: $red_orange;
+    color: $seerai-orange;
     &:before {
       content: "\2022";
       display: inline-block;
@@ -361,7 +361,7 @@
       left: -15px;
       top: 1px;
       font-size: rem(22px);
-      color: $red_orange;
+      color: $seerai-orange;
 
       @include sphinx-medium-size {
         left: -20px;
@@ -486,11 +486,11 @@
   }
 
   li.active > a {
-    color: $red_orange;
+    color: $seerai-orange;
 
     span.pre,
     &:before {
-      color: $red_orange;
+      color: $seerai-orange;
     }
 
     &:after {

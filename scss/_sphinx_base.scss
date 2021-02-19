@@ -67,12 +67,12 @@ p {
   a:link,
   a:visited,
   a:hover {
-    color: $red_orange;
+    color: $seerai-orange;
   }
 }
 
 .wy-breadcrumbs li a {
-  color: $red_orange;
+  color: $seerai-orange;
 }
 
 ul.pytorch-breadcrumbs {
@@ -85,7 +85,7 @@ ul.pytorch-breadcrumbs {
   }
 
   a {
-    color: $red_orange;
+    color: $seerai-orange;
     text-decoration: none;
   }
 }
@@ -181,7 +181,7 @@ ul.pytorch-breadcrumbs {
       }
 
       .star-fill {
-         color: $red_orange;
+         color: $seerai-orange;
       }
     }
   }
@@ -344,7 +344,7 @@ article.pytorch-article .sphx-glr-thumbcontainer {
   @include animated_border_hover_state;
   @include desktop {
     &:after {
-      background-color: $red_orange;
+      background-color: $seerai-orange;
     }
   }
 }
@@ -365,7 +365,7 @@ article.pytorch-article {
       position: relative;
       background: $light_grey;
       padding: rem(8px);
-      border-left: 3px solid $red_orange;
+      border-left: 3px solid $seerai-orange;
       word-wrap: break-word;
       padding-right: 100px;
 
@@ -387,7 +387,7 @@ article.pytorch-article {
       }
       &:hover {
         .viewcode-link {
-          color: $red_orange;
+          color: $seerai-orange;
         }
       }
     }
@@ -468,7 +468,7 @@ article.pytorch-article {
     @extend .function;
     dt {
       border-left: none;
-      border-top: 3px solid $red_orange;
+      border-top: 3px solid $seerai-orange;
       padding-left: 4em;
       em.property {
         position: absolute;
@@ -487,7 +487,7 @@ article.pytorch-article {
     em.property {
       text-transform: uppercase;
       font-style: normal;
-      color: $red_orange;
+      color: $seerai-orange;
       font-size: rem(16px);
       letter-spacing: 0;
       padding-right: rem(12px);
@@ -502,7 +502,7 @@ article.pytorch-article {
     .method,
     .staticmethod {
       dt {
-        border-left: 3px solid $red_orange;
+        border-left: 3px solid $seerai-orange;
         border-top: none;
       }
       dt {
@@ -670,7 +670,7 @@ article.pytorch-article {
     @include animated_border_hover_state;
     @include desktop {
       &:after {
-        background-color: $red_orange;
+        background-color: $seerai-orange;
       }
     }
 
@@ -748,7 +748,7 @@ article.pytorch-article {
           line-height: rem(22px);
           .pre {
             background: $white;
-            color: $red_orange;
+            color: $seerai-orange;
             font-size: 87.5%;
           }
           code {
@@ -837,36 +837,36 @@ article.pytorch-article {
 a:link,
 a:visited,
 a:hover {
-  color: $red_orange;
+  color: $seerai-orange;
 }
 
 ::-webkit-input-placeholder {
-  color: $red_orange;
+  color: $seerai-orange;
 }
 
 ::-moz-placeholder {
-  color: $red_orange;
+  color: $seerai-orange;
 }
 
 :-ms-input-placeholder {
-  color: $red_orange;
+  color: $seerai-orange;
 }
 
 :-moz-placeholder {
-  color: $red_orange;
+  color: $seerai-orange;
 }
 
 .site-footer {
   @include desktop {
     a:hover {
-      color: $red_orange;
+      color: $seerai-orange;
     }
   }
 }
 
 .docs-tutorials-resources {
   a {
-    color: $red_orange;
+    color: $seerai-orange;
   }
 }
 
@@ -880,11 +880,11 @@ a:hover {
   ul li {
     &.active {
       &:after {
-        color: $red_orange;
+        color: $seerai-orange;
       }
 
       a {
-        color: $red_orange;
+        color: $seerai-orange;
       }
     }
   }
@@ -892,7 +892,7 @@ a:hover {
   ul li a {
     @include full-nav-menu-desktop {
       &:hover {
-        color: $red_orange;
+        color: $seerai-orange;
       }
     }
   }
@@ -900,7 +900,7 @@ a:hover {
 
 .mobile-main-menu.open {
   ul li.active a {
-    color: $red_orange;
+    color: $seerai-orange;
   }
 }
 
